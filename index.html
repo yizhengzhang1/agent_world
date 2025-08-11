@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>AgentWorld</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -173,10 +173,71 @@ between simulation-based training and real-world deployment.
         </div>
       </div>
     </div>
+
+    <div class="columns is-centered ">
+          <img src="static/images/fig1_teaser.jpg" alt="ProbeX Overview" class="blend-img-background center-image" style="max-width: 75%; height: auto;">
+    </div>
+    
   </div>
 </section>
 <!-- End paper abstract -->
 
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered ">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Pipeline of the scene construction module</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our pipeline mainly comprises four key stages: Layout Generation, Semantic Asset
+Selections and Placement, Visual Material Configuration, and Interactive Physics Simulation.
+The first three stages are implemented in Unreal Engine, leveraging its superior rendering capa-
+bilities and intuitive blueprint system for efficient scene design. For the Interactive Physics Simula-
+tion stage, we utilize NVIDIA’s Omniverse Isaac Sim, which provides enhanced physics engine
+performance crucial for sim-to-real transfer and enables efficient parallel training of robotic agents.
+          </p>
+          <img src="static/images/fig2_pipeline.jpg" alt="ProbeX Overview" class="blend-img-background center-image" style="max-width: 85%; height: auto;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered ">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Mobile-based Teleoperation for data collection</h2>
+        <div class="content has-text-justified">
+          <p>
+            Data collection system of AgentWorld. For the mobile-base control, we allow the users
+to use the keyboard to to control robots, both wheel-based and legged. For arm & hand control, we
+use the VR head set to get the hand pose and compute IK for obtaining the arm action, and utilize
+re-targeting methods to drive robotic hands.
+          </p>
+          <img src="static/images/fig3_teleop.jpg" alt="ProbeX Overview" class="blend-img-background center-image" style="max-width: 85%; height: auto;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered ">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Imitation Learning + Reinforcement Learning</h2>
+        <div class="content has-text-justified">
+          <p>
+            Qualitative results for different imitation learning algorithms in AgentWorld Dataset, and
+a Sim-to-real transfer example to validate the availability and generalizability of our data.
+          </p>
+          <img src="static/images/fig4_qual.jpg" alt="ProbeX Overview" class="blend-img-background center-image" style="max-width: 85%; height: auto;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- Video carousel -->
