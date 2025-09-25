@@ -5,4 +5,4 @@ https://huggingface.co/datasets/zyz-robotics/agentworld_assets/tree/main
 
 ## TODO:
 - [x] release Procedural Generate Scene 
-- [] release teleop code
+- [ ] release teleop code
